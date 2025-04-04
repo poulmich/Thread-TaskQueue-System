@@ -1,1 +1,2 @@
 # Thread-TaskQueue-System
+A C implementation of a producer-consumer system using POSIX threads. This project features a synchronized task queue where producer threads generate random angle calculations (0-360°) and consumer threads compute their cosines in parallel. Τhe system employs mutexes and condition variables to ensure safe concurrent access while precisely tracking task timing and recording exact timestamps when tasks enter and exit the queue.
